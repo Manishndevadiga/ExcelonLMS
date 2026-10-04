@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 
 const authUser = asyncHandler(async (req, _, next) => {
 
-    const accToken = req.cookies?.accessToken;
+    const accToken = req?.cookies?.accessToken;
     console.log(accToken)
 
     if (!accToken) {
