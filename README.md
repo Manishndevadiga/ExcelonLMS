@@ -59,6 +59,14 @@ const startServer = async () => {
 startServer();
 ```
 
+const LEAVE_LIMITS = {
+  casual: 12,
+  sick: 10,
+  earned: 15,
+};
+
+is configured in /controllers/leave.controllers.js 
+
 The admin can log in using the common login page and access the Admin Dashboard to manage employee leave requests.
 
 **Default admin credentials for assessment:**
