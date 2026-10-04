@@ -14,7 +14,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://excelon-p7rylpjq0-manish-s-projects-844e9815.vercel.app",
+  // "https://excelon-p7rylpjq0-manish-s-projects-844e9815.vercel.app",
    process.env.CLIENT_URL,
 ];
 
